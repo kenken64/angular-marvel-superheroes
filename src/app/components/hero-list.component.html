@@ -1,0 +1,6 @@
+<mat-nav-list>
+  <a mat-list-item *ngFor="let c of characters" [routerLink]="['character', c.id]">
+    {{ c.name }}
+  </a>
+
+</mat-nav-list>

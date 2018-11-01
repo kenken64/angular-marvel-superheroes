@@ -1,0 +1,16 @@
+<mat-card (swiperight)="back()">
+  <mat-card-header>
+    <mat-card-title>{{ character?.name }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="character?.image">
+  <mat-card-content>
+    <p>{{ character?.description }}</p>
+  </mat-card-content>
+  <mat-card-actions fxLayoutAlign="end">
+    <button type="button" mat-button mat-raised-button color="primary"
+        (click)="back()">
+      <mat-icon>arrow_back</mat-icon>
+      Back
+    </button>
+  </mat-card-actions>
+</mat-card>
