@@ -23,7 +23,7 @@ import { MarvelService } from './marvel.service';
     MaterialModule, AppRouteModule
   ],
   providers: [
-    { provide: 'appKey', useValue: '__YOUR_API_KEY__' },
+    { provide: 'appKey', useValue: '76ee705b0c648cd243529c1870cfbf79' },
     MarvelService
 
   ],
